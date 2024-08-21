@@ -45,7 +45,7 @@ function get-udfpackage{
     }
     return $pkgObject
 }
-get-udfpackage @{PackageName = "vlock"}
+#get-udfpackage @{PackageName = "vlock"}
 
 #V-238205
 function get-udfpasswdcontent{
@@ -99,7 +99,7 @@ function get-udfpasswdcontent{
     }
     return $results
 }
-get-udfpasswdcontent
+#get-udfpasswdcontent
 
 #v-238202
 function get-udfpasswordminday{
@@ -126,4 +126,4 @@ function get-udfpasswordminday{
     }
     return $results
 }
-get-udfpasswordminday
+#get-udfpasswordminday
