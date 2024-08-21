@@ -1,0 +1,20 @@
+PSFunctionApp
+ | - MyFirstFunction
+ | | - run.ps1
+ | | - function.json
+ | - MySecondFunction
+ | | - run.ps1
+ | | - function.json
+ | - Modules
+ | | - myFirstHelperModule
+ | | | - myFirstHelperModule.psd1
+ | | | - myFirstHelperModule.psm1
+ | | - mySecondHelperModule
+ | | | - mySecondHelperModule.psd1
+ | | | - mySecondHelperModule.psm1
+ | - local.settings.json
+ | - host.json
+ | - requirements.psd1
+ | - profile.ps1
+ | - extensions.csproj
+ | - bin
